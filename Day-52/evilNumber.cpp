@@ -22,7 +22,8 @@ int is_evil_number(int n) {
 
 int main() {
     int n;
-    scanf("%d", &n); 
-    printf("%d\n", is_evil_number(n));
+    cin>>n; 
+    int result = is_evil_number(n);
+    cout<<result;
     return 0;
 }
